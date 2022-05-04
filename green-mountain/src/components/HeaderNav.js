@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react';
 import './HeaderNav.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
 
+
 function HeaderNav(props) {
     const [scrolled, setScrolled] = useState(false);
     const handleScroll = () => {
@@ -23,7 +24,8 @@ function HeaderNav(props) {
 
     return (
         <header className={scrolled ? 'navbar scrolled' : 'navbar'}>
-            <h1>Green Mountain Ganaga Guys</h1>
+            {/* <img src={logo}></img> */}
+            <h1>Green Mountain Ganga Guys</h1>
 			<nav>
 				<ul >
 				<AnchorLink href='#home'>Home</AnchorLink>

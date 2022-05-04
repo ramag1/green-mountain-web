@@ -1,6 +1,6 @@
 .navbar {
 width: 100%;
-min-height: 10vh;
+height: 20vh;
 box-sizing: border-box;
 display: flex;
 justify-content: space-between;
@@ -11,8 +11,9 @@ transition: all .7s ease-in;
 h1 {
     color: rgb(7, 79, 7);
 }
-li {
+a {
     cursor: pointer;
+    padding-left: 2em;
 }
 
 .scrolled {

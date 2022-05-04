@@ -1,6 +1,5 @@
 APP
-    -Header
-    -Nav (links/scrolls to Home, About Us, Products, Contact)
+    -HeaderNav (Logo, H1, links/scrolls to Home, About Us, Products, Contact)
     -Home: headline & high level
     -About Us: detailed info/videos/images/overall story
     -Products: Carousel that goes to specific component
