@@ -1,0 +1,35 @@
+body {
+  font-family: 'Philosopher', sans-serif;
+  width: 100%;
+  margin: 1px;
+
+}
+
+.app__container {
+  height: 100vh;
+  overflow-y: scroll;
+  display: grid;
+  grid-row: .5fr 2fr .5fr .25fr;
+
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+
+  /* /* body {
+    width: 100vw;
+  } */
+  .app__container {
+    width: 100vw;
+    margin: 0;
+    display: grid;
+    grid-row: .5fr 2fr .2fr .25fr;
+  }
+
+  .app__header__div {
+    width: 100vw;
+  }
+}

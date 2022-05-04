@@ -1,0 +1,11 @@
+APP
+    -Header
+    -Nav (links/scrolls to Home, About Us, Products, Contact)
+    -Home: headline & high level
+    -About Us: detailed info/videos/images/overall story
+    -Products: Carousel that goes to specific component
+        Use seeded data with id to reference
+            -Product Page { managed by state, params? }
+    -Contact Us
+        - Create mongo backend
+    -Footer
