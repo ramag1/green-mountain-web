@@ -1,0 +1,23 @@
+.navbar {
+width: 100%;
+min-height: 10vh;
+box-sizing: border-box;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.757);
+transition: all .7s ease-in;
+}
+h1 {
+    color: rgb(7, 79, 7);
+}
+li {
+    cursor: pointer;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.757);
+}

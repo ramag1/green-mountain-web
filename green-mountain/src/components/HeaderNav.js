@@ -1,0 +1,39 @@
+import {useState, useEffect} from 'react';
+import './HeaderNav.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
+
+function HeaderNav(props) {
+    const [scrolled, setScrolled] = useState(false);
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if (offset > 10) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+    });
+    let navbarClasses = ['navbar'];
+    if (scrolled) {
+        navbarClasses.push('scrolled');
+    }
+
+    return (
+        <header className={scrolled ? 'navbar scrolled' : 'navbar'}>
+            <h1>Green Mountain Ganaga Guys</h1>
+			<nav>
+				<ul >
+				<AnchorLink href='#home'>Home</AnchorLink>
+				<AnchorLink href='#about'>About Us</AnchorLink>
+				<AnchorLink href='#products'>Our Products</AnchorLink>
+				<AnchorLink href='#contact'>Contact Us</AnchorLink>
+				</ul> 
+			</nav>
+        </header>
+	);
+}
+
+export default HeaderNav;
