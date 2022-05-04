@@ -11,22 +11,22 @@ body {
 
 #home {
   width: 100vw;
-  min-height: 100vh;
+  height: 80vh;
   padding-top: 10em;
 }
 #about {
   width: 100vw;
-  min-height: 100vh;
+  height: 80vh;
   padding-top: 10em;
 }
 #products {
   width: 100vw;
-  min-height: 100vh;
+  height: 80vh;
   padding-top: 10em;
 }
 #contact {
   width: 100vw;
-  min-height: 100vh;
+  height: 80vh;
   padding-top: 10em;
 }
 

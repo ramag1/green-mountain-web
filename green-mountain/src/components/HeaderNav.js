@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
-import './HeaderNav.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
+import {NavLink} from 'react-router-dom';
+import './HeaderNav.css'
 
 
 function HeaderNav(props) {
@@ -27,7 +28,7 @@ function HeaderNav(props) {
             {/* <img src={logo}></img> */}
             <h1>Green Mountain Ganga Guys</h1>
 			<nav>
-				<ul >
+				<ul>
 				<AnchorLink href='#home'>Home</AnchorLink>
 				<AnchorLink href='#about'>About Us</AnchorLink>
 				<AnchorLink href='#products'>Our Products</AnchorLink>
