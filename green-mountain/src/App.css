@@ -3,16 +3,18 @@ body {
   margin:3px;
   background-color: whitesmoke;
 }
-
+html {
+}
 .app__container {
+  background-image: url(./components/assets/weedbg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   overflow-y: scroll;
   text-align: center;
 }
 
 #home {
-  background-image: url(./components/assets/weedbg.png);
-  background-position: center;
-  background-size: cover;
   width: 100vw;
   height: 80vh;
   padding-top: 10em;

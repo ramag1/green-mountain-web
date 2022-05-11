@@ -5,7 +5,7 @@ function Home(props) {
     return (
 		<div id='home'>
 			<div className='home__div'>
-			Vermont's preferred natural cannibis distributor.
+			<p className="home__p">Vermont's preferred natural cannibis distributor.</p>
 			</div>
 		</div>
 	);
