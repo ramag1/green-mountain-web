@@ -10,6 +10,9 @@ body {
 }
 
 #home {
+  background-image: url(./components/assets/weedbg.png);
+  background-position: center;
+  background-size: cover;
   width: 100vw;
   height: 80vh;
   padding-top: 10em;

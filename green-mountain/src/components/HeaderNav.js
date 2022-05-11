@@ -8,7 +8,7 @@ function HeaderNav(props) {
     const [scrolled, setScrolled] = useState(false);
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 10) {
+        if (offset > 150) {
             setScrolled(true);
         } else {
             setScrolled(false);
