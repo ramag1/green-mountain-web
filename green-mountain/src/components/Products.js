@@ -1,11 +1,23 @@
-import React from 'react';
-import { LoremIpsum } from 'react-lorem-ipsum';
+import React , {useState} from 'react';
+import Product from './Product';
+import data from '../data.json';
+import { Carousel } from 'react-responsive-carousel';
 
 function Products(props) {
+
+	const [strains, setStrains] = useState(data);
+	console.log(strains)
+
     return (
 			<div id='products'>
-				Products Carousel
-				<LoremIpsum p={2} />
+					<div>
+						{strains.data.map((strain) => {
+							return <div key={strain.id}>{strain.name}
+							
+							</div>;
+						})}
+					</div>
+
 			</div>
 		);
 }
