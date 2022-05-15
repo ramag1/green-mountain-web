@@ -4,23 +4,23 @@
       "id":1,
       "name":"GMO Cookies",
       "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
-      "imageKey":"assets/weed1.jpeg"
+      "imageKey":"./assets/weed1.jpeg"
     },
     {
       "id":3,
-      "name":"GMO Cookies",
+      "name":"Peanut Butter Breath",
       "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
       "imageKey":"assets/weed2.jpeg"
     },
     {
       "id":4,
-      "name":"GMO Cookies",
+      "name":"Wedding Cake",
       "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
       "imageKey":"assets/weed3.jpeg"
     },
     {
       "id":5,
-      "name":"GMO Cookies",
+      "name":"Ice Cream Cake",
       "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
       "imageKey":"assets/weed3.jpeg"
     }         

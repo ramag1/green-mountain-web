@@ -4,18 +4,21 @@ import data from '../data.json'
 
 function Product(props) {
 
-    const [strains, setStrains] = useState(null)
+    const [strains, setStrains] = useState(data)
 
     return (
-			<div>
-				{/* <Carousel>
-					<div>
-						{data.map((strain) => {
-							return <div key={strain.id}>{strain.name}</div>;
-						})}
-					</div>
-				</Carousel> */}
+
+			<div className='product__div'>
+				{strains.data.map((strain) => {
+					return <div key={strain.id}>{strain.name};
+                    <img
+                        src={strain.imageKey}
+                        alt={strain.name}
+                    />;
+                    </div>
+				})}
 			</div>
+   
 		);
 }
 

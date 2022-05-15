@@ -1,0 +1,16 @@
+.products__div {
+    background-color: rgba(0, 0, 0, 0.434);
+    height: 50vh;
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+}
+
+.products__p {
+    /* flex-direction: column;
+    flex-wrap: nowrap; */
+    align-self: center;
+    justify-items: center;
+}
