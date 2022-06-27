@@ -14,18 +14,14 @@ function App() {
   return (
 		<div className='app__container'>
 			<HeaderNav />
-			<Home />
-			<AboutUs />
-			<Products />
-			<Contact />
+				<Routes>
+					<Route path='/' element={<Home />}></Route>
+					<Route path='/about' element={<AboutUs />}></Route>
+					<Route path='/products' element={<Products />}></Route>
+					<Route path='/products/:id' element={<Product />}></Route>
+					<Route path='/contact' element={<Contact />}></Route>
+				</Routes>
 			<Footer />
-
-			<Routes>
-				<Route path='/about' element={<AboutUs />}></Route>
-				<Route path='/products' element={<Products />}></Route>
-				<Route path='/products/:id' element={<Product />}></Route>
-				<Route path='/contact' element={<Contact />}></Route>
-			</Routes>
 		</div>
 	);
 }
