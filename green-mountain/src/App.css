@@ -14,26 +14,6 @@ html {
   text-align: center;
 }
 
-#home {
-  width: 100vw;
-  height: 55vh;
-  padding-top: 10em;
-}
-#about {
-  width: 100vw;
-  height: 55vh;
-  padding-top: 10em;
-}
-#products {
-  width: 100vw;
-  height: 55vh;
-  padding-top: 10em;
-}
-#contact {
-  width: 100vw;
-  height: 55vh;
-  padding-top: 10em;
-}
 
 
 @media only screen and (max-width: 900px) {

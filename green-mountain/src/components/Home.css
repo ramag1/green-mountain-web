@@ -1,6 +1,5 @@
 .home__div {
-    background-color: rgba(0, 0, 0, 0.434);
-    height: 50vh;
+    height: 80vh;
     width: 80vw;
     text-align: center;
     margin: 0 auto;
@@ -9,6 +8,21 @@
 }
 
 .home__p {
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.485);
+    padding-top: 2em;
     align-self: center;
     justify-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .home__div {
+        height: 70vh;
+        width: 80vw;
+        margin-top: 0em;
+    }
+    .home__p {
+        height: 80%;
+    }
 }
