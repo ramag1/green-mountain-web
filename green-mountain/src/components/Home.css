@@ -24,5 +24,6 @@
     }
     .home__p {
         height: 80%;
+        width: 80vw;
     }
 }

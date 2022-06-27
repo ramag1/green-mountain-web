@@ -1,6 +1,5 @@
 .contact__div {
-    background-color: rgba(0, 0, 0, 0.434);
-    height: 50vh;
+    height: 80vh;
     width: 80vw;
     text-align: center;
     margin: 0 auto;
@@ -9,8 +8,23 @@
 }
 
 .contact__p {
-    /* flex-direction: column;
-    flex-wrap: nowrap; */
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.485);
+    padding-top: 2em;
     align-self: center;
     justify-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .contact__div {
+        height: 70vh;
+        width: 80vw;
+        margin-top: 0em;
+    }
+
+    .contact__p {
+        height: 80%;
+        width: 80vw;
+    }
 }

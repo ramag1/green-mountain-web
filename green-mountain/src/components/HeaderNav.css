@@ -53,7 +53,7 @@ a {
         background-size: cover;
     }
     h1 {
-        font-size: 1em ;
+        font-size: 1.3em ;
         grid-row: 2;
         grid-column: 1;
     }
