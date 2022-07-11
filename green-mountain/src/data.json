@@ -2,27 +2,38 @@
   "data":[
     {
       "id":1,
-      "name":"GMO Cookies",
-      "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
-      "imageKey":"./assets/weed1.jpeg"
+      "name":"Corn Pop",
+      "details": "Green Mountain Ganja Guys' Personal Blend: A cross of Chemdawg and Maine Only Blueberry. We really enjoy the lavender and blueberry notes in a smooth & relaxing, soft smoke. 60/40 Indica"
     },
     {
       "id":3,
-      "name":"Peanut Butter Breath",
-      "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
-      "imageKey":"assets/weed2.jpeg"
+      "name":"Farm Blend",
+      "details": "Green Mountain Ganja Guys' acquired cocktail of heirloom seeds; lovingly grown on the same hill in Maine for 30+ years with open pollination, containing: Purple Afghani Speed Queen, Fruit Punch, Queen of the Mountain, among other deliciousnesses... We'll happily have our new crop regularly & rigorously tested to better know its buzz - stay tuned."
     },
     {
       "id":4,
-      "name":"Wedding Cake",
-      "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
-      "imageKey":"assets/weed3.jpeg"
+      "name":"Slippery Susan",
+      "details": "Tina x Grease Monkey, 80/20 Indica"
     },
     {
       "id":5,
-      "name":"Ice Cream Cake",
-      "details": "GMO provides a deep body high that feels like a classic indica, with the uplifting cerebral vibrancy of its Chemdawg parent. This strain can lock you to the couch, so plan accordingly—prep snacks, pour yourself a glass of water, and settle in for deep relaxation.",
-      "imageKey":"assets/weed3.jpeg"
-    }         
+      "name":"Tarts",
+      "details": "Wojo Mints x Grease Monkey. 60/40 Indica"
+    },
+    {
+      "id":6,
+      "name":"Malibu Marsha",
+      "details": "Tropicana x Cookies & Cream F2. 50/50 Hybrid"
+    }  ,  
+    {
+      "id":7,
+      "name":"Gelato Mints",
+      "details": "It's It x Cookie & Cream F2. 70/30 Indica"
+    },  
+    {
+      "id":8,
+      "name":"Pink Malabar",
+      "details": "USC X x 18 Tom Hills. 50/50 Hybrid, High THC"
+    }             
   ]
 }

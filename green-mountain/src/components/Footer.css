@@ -1,0 +1,65 @@
+.footer__div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    color: #000000;
+    background-color: rgba(0,0,0, 0.485);
+    border-bottom: 1px solid grey;
+
+}
+
+ul#info li {
+    display: inline;
+    border-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5rem;
+}
+
+.footer_info {
+    border-bottom: 1px solid grey;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    margin: 0 3rem 0 0;
+}
+
+/* footer icons */
+
+.location-dot {
+    margin: 0 3px 0 0;
+    color: #30699B;
+}
+
+.mobile-icon {
+    margin: 0 3px 0 0;
+    color: #30699B;
+}
+
+.envelope-icon {
+    margin: 0 3px 0 0;
+    color: #30699B;
+}
+
+@media only screen and (max-width: 500px) {
+    #footer {
+        width: 100vw;
+    }
+
+    li {
+        /* display: inline; */
+        cursor: pointer;
+        list-style: none;
+        /* display: flex; */
+        margin: 0 .3rem 0 0;
+    }
+
+}

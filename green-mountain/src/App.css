@@ -4,8 +4,7 @@ body {
   margin:3px;
   background-color: whitesmoke;
 }
-html {
-}
+
 .app__container {
   background-image: url('./components/assets/background_img.jpeg');
   background-position: center;
@@ -17,10 +16,9 @@ html {
 
 
 @media only screen and (max-width: 900px) {
-
-  /* /* body {
-    width: 100vw;
-  } */
+  body {
+    height: 100vh;
+  }
   .app__container {
     width: 100vw;
     margin: 0;

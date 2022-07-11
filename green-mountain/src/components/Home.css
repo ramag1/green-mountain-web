@@ -8,6 +8,7 @@
 }
 
 .home__p {
+    padding: 1em;
     overflow-y: scroll;
     background-color: rgba(0, 0, 0, 0.485);
     padding-top: 2em;
