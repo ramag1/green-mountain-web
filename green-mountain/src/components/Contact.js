@@ -33,40 +33,40 @@ function Contact(props) {
 
 	return (
 		<div className='contact__div'>
-			<div className='contact__heroimg'></div>
+            <div className='contact__form'>
 			<h2 className='contact__h2'>Contact Us</h2>
 
 			<form onSubmit={handleSubmit}>
 				<label htmlFor='name'>
-					<span className='contact__span'>Name </span> (required)
+					<span className='contact__span'>Name: </span> 
 				</label>
 				<br />
 				<input
 					onChange={handleChange}
 					id='name'
 					value={inquiry.name}
-					placeholder='Name'
+					placeholder='Required'
 					type='text'
 					required={true}
 				/>
 
 				<br />
 				<label htmlFor='email'>
-					<span className='contact__span'>Email </span> (required)
+					<span className='contact__span'>Email: </span> 
 				</label>
 				<br />
 				<input
 					onChange={handleChange}
 					id='email'
 					value={inquiry.email}
-					placeholder='email'
+					placeholder='Required'
 					type='email'
 					required={true}
 				/>
 
 				<br />
 				<label htmlFor='comments'>
-					<span className='contact__span'>Comment </span> (required)
+					<span className='contact__span'>Comments: </span> 
 				</label>
 				<br />
 				<input
@@ -74,13 +74,14 @@ function Contact(props) {
 					onChange={handleChange}
 					id='comments'
 					value={inquiry.comments}
-					placeholder='comments'
+					placeholder='Required'
 					type='text'
 					required={true}
 				/>
 				<br />
 				<button className='contact__btn'>Submit</button>
 			</form>
+            </div>
 		</div>
 	);
 }

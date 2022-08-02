@@ -3,6 +3,7 @@ body {
   serif;
   margin:3px;
   background-color: whitesmoke;
+  height: 100vh;
 }
 
 .app__container {

@@ -5,10 +5,10 @@
     margin: 0 auto;
     color: white;
     display: flex;
-    overflow-y: scroll;
 }
 
 .products__p {
+    /* overflow-y: scroll; */
     padding: 1em;
     background-color: rgba(0, 0, 0, 0.485);
     align-self: center;

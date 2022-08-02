@@ -1,25 +1,68 @@
 .contact__div {
     height: 80vh;
     width: 80vw;
-    text-align: center;
     margin: 0 auto;
-    color: white;
     display: flex;
 }
-
-.contact__p {
-    overflow-y: scroll;
-    background-color: rgba(0, 0, 0, 0.485);
-    padding-top: 2em;
+.contact__form {
+    text-align: left;
     align-self: center;
     justify-items: center;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 3fr;
+    background-color: rgba(0, 0, 0, 0.485);
+}
+
+.contact__h2 {
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+form {
+    grid-column: 1;
+    grid-row: 2;
+    align-items: center;
+    padding-top:2em;
+
+}
+
+#name {
+    margin-top:1em;
+    margin-bottom: 1em;
+    padding:.5em;
+}
+
+#email {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding:.5em;
+}
+#comments {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+button {
+    background-color: whitesmoke;
+    color: #23412B;
+    border: 1px whitesmoke solid;
+    height: 2em;
+    width: 6em;
+    font-family: 'Libre Baskerville';
+    margin-top: 1em;
 }
 
 @media only screen and (max-width: 900px) {
 
     .contact__div {
         height: 70vh;
-        width: 80vw;
+        width: 100vw;
         margin-top: 0em;
     }
 
