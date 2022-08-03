@@ -5,8 +5,8 @@ import './AboutUs.css'
 function AboutUs(props) {
     return (
 			<div className='about__div'>
-				<p className='about__pjoe'>
-					Joseph S. Dicton, Jr. is the only child of Joseph Sr. and
+				<p className='about__p'>
+					<b>Joseph S. Dicton, Jr.</b> is the only child of Joseph Sr. and
 					Marian Dicton. The Dicton 22-acre homestead was purchased in 1978 and
 					the three worked to clear the land and establish Joe’s Nursery and
 					Landscaping, a going concern until Joe Sr. passed in 2003. Long roots
@@ -16,10 +16,9 @@ function AboutUs(props) {
 					the Rutland Town Fire Department and Rutland Town Select Board, also
 					as its chairman. Always loving the horticultural business, he
 					continues to get his hands dirty and garden while working full time
-					with Green Mountain Power. <br />
-				</p>
-				<p className='about__psteph'>
-					Stephanie Brush spent a business career growing clients.
+					with Green Mountain Power. <br /> <br/>
+				
+					<b>Stephanie Brush</b> spent a business career growing clients.
 					Two decades of working for multi-national companies in the technology
 					sector focused on Business Development brings a unique skill set for
 					nurturing relationships, collaboration, and problem solving. Growing

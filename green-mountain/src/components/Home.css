@@ -9,7 +9,7 @@
 
 .home__p {
     padding: 1em;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     background-color: rgba(0, 0, 0, 0.485);
     padding-top: 2em;
     align-self: center;
@@ -19,12 +19,13 @@
 @media only screen and (max-width: 900px) {
 
     .home__div {
-        height: 70vh;
+        height: 80vh;
         width: 80vw;
         margin-top: 0em;
     }
     .home__p {
         height: 80%;
         width: 80vw;
+        font-size: .9em;
     }
 }

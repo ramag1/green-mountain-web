@@ -4,43 +4,30 @@
     text-align: center;
     margin: 0 auto;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
 }
 
-.about__pjoe {
-    overflow-y: scroll;
-    background-color: rgba(0, 0, 0, 0.485);
+.about__p {
+    /* overflow-y: scroll; */
     padding: 1em;
-    margin-right: 1em;
-    align-self: center;
-    justify-items: center;
-    height: 50%;
-}
-.about__psteph {
-    overflow-y: scroll;
-    background-color: rgba(0, 0, 0, 0.485);
     padding-top: 2em;
+    background-color: rgba(0, 0, 0, 0.485);
     align-self: center;
     justify-items: center;
-    height: 50%;
-    margin-left:1em;
-    padding: 1em;
+    font-size: 1em;
 }
+
 
 @media only screen and (max-width: 900px) {
 
     .about__div {
-        height: 70vh;
+        height: 80vh;
         width: 80vw;
         margin-top: 0em;
         font-size: .75em;
     }
-    .about__pjoe {
+    .about__p {
         height: 80%;
     }
-    .about__psteph {
-        height: 80%;
-    }
+
 }

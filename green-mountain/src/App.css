@@ -21,8 +21,11 @@ body {
     height: 100vh;
   }
   .app__container {
-    width: 100vw;
+    width: 97vw;
     margin: 0;
+  }
+  h1 { 
+    font-size:1.2em;
   }
 
   .app__header__div {

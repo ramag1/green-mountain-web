@@ -9,7 +9,7 @@ function Footer(props) {
 				<li>
 					<FaMapMarkerAlt />
 					{/* <i className='fa-solid fa-location-dot'></i> */}
-					274 Redwood Shores Parkway #504, Redwood City, CA 94065
+					Rutland County, Vermont
 				</li>
 				<li>
 					<FaMobileAlt />
@@ -18,7 +18,7 @@ function Footer(props) {
 				</li>
 				<li>
 					<FaEnvelope />
-					llin@globalpartner.com
+					greenmountainganjaguys@gmail.com
 				</li>
 			</ul>
 		</div>
